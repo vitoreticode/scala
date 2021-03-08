@@ -11,3 +11,14 @@ def add(a: Int, b: Int): Int = {
   result
 }
 
+// an expression has a return value, a statement does not
+// a pure expression has no effects other than those
+// seen in the return values
+
+// an expression
+val a = 1 + 2
+// a statement
+println(a)
+
+
+

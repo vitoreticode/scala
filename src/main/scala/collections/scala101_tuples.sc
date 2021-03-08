@@ -12,4 +12,8 @@ res._2
 val (sm, df) = sumDifference(10, 5)
 
 // tuple unpacking
-val (a,b,c,d,e) = (0, 'u', 8, 1, "foo")
+val tup5 = (0, 'u', 8, 1, "foo")
+
+val (a,b,c,d,e) = tup5
+
+// tuples arity = 22
